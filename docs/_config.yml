@@ -33,7 +33,7 @@ plugins:
 header_pages:
   - topics.md
   - publications.md
-  # - about.markdown
+  - changelog.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
