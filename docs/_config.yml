@@ -28,7 +28,7 @@ title-logo: /images/IDA_Wireless_Group.svg
 # Build settings
 theme: minima
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
 
 header_pages:
   - topics.md
