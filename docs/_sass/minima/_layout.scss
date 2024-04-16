@@ -10,6 +10,11 @@
   position: relative;
 }
 
+.site-header img {
+  height: 40px; /* Adjust the height of the logo as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
