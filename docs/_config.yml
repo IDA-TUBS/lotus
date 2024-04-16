@@ -35,6 +35,22 @@ header_pages:
   - publications.md
   - changelog.md
 
+show_excerpts: true
+
+collections:
+  topics:
+    output: true
+    permalink: /topics/:path/
+  error_correction:
+    output: true
+    permalink: /error_correction/:path/
+  resource_managemet:
+    output: true
+    permalink: /resource_management/:path/
+  handover:
+    output: true
+    permalink: /handover/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
