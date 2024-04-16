@@ -30,12 +30,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Navigation Bar Content and Order
 header_pages:
   - topics.md
   - publications.md
   - changelog.md
 
+# Enable excerpts for posts 
 show_excerpts: true
+
+collections_dir: collections
 
 collections:
   topics:
@@ -44,7 +48,7 @@ collections:
   error_correction:
     output: true
     permalink: /error_correction/:path/
-  resource_managemet:
+  resource_management:
     output: true
     permalink: /resource_management/:path/
   handover:

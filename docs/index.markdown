@@ -5,4 +5,4 @@
 layout: page
 ---
 
-Hello World 1
+Introduction to IDA Wireless Group

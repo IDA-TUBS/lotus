@@ -2,12 +2,9 @@
 layout: default
 ---
 
-
 <ul class="post-list">
     {% for topic in site.topics %}
         <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
             <h3>
             <a class="post-link" href="{{ topic.url | relative_url }}">
                 {{ topic.title | escape }}
