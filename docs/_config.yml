@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: IDA Wireless Group
-baseurl: "/index/" # the subpath of your site, e.g. /blog
-url: "https://mrtappy.github.io/pages_test/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/pages_test/" # the subpath of your site, e.g. /blog
+url: "https://mrtappy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
