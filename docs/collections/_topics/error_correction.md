@@ -1,6 +1,6 @@
 ---
 layout: topic
-title:  Wireless Reliable Realtime Communication for Large Data Objects
+title:  Wireless Reliable Realtime Protocol
 topic: error_correction
 published: true
 ---

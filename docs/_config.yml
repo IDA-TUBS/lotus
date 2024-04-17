@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wireless Group
+title: IDA Wireless Group
 baseurl: "/wireless-group/" # the subpath of your site, e.g. /blog
 url: "https://ida-tubs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -45,6 +45,10 @@ collections:
   topics:
     output: true
     permalink: /topics/:path/
+    order:
+      - large_data.md
+      - error_correction.md
+      - handover.md
   error_correction:
     output: true
     permalink: /error_correction/:path/
