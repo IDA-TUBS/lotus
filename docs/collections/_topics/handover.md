@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Continuous Multi Access for Large Data Object Streaming
+title: Continuous Connectivity for Large Data Object Streaming
 topic: handover 
 ---
 
