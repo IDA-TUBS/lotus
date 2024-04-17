@@ -3,10 +3,15 @@ Data Objects with Overlapping Backward Error Correction.” In *IECON
 2023- 49th Annual Conference of the IEEE Industrial Electronics
 Society*, 1–8. <https://doi.org/10.1109/IECON51785.2023.10312061>.
 
-Bendrick, Alex, Jonas Peeck, and Rolf Ernst. 2023. “An Error Protection
-Protocol for the Multicast Transmission of Data Samples in V2X
-Applications.” *ACM Transactions on Cyber-Physical Systems*, August.
-<https://doi.org/10.1145/3617126>.
+Bendrick, Alex, Jonas Peeck, and Rolf Ernst. 2023a.
+“<span class="nocase">On the effectiveness of W2RP in physical
+environments</span>.” *Publications Institute of Computer and Network
+Engineering*.
+https://doi.org/<https://doi.org/10.24355/dbbs.084-202301231301-0>.
+
+———. 2023b. “An Error Protection Protocol for the Multicast Transmission
+of Data Samples in V2X Applications.” *ACM Transactions on
+Cyber-Physical Systems*, August. <https://doi.org/10.1145/3617126>.
 
 Bendrick, Alex, Daniel Tappe, and Rolf Ernst. 2024.
 “<span class="nocase">Ultra Reliable Hard Real-Time V2X Streaming with
