@@ -45,10 +45,6 @@ collections:
   topics:
     output: true
     permalink: /topics/:path/
-    order:
-      - large_data.md
-      - error_correction.md
-      - handover.md
   error_correction:
     output: true
     permalink: /error_correction/:path/
