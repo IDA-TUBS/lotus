@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Wireless Group
-baseurl: "/pages_test/" # the subpath of your site, e.g. /blog
-url: "https://mrtappy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/wireless-group/" # the subpath of your site, e.g. /blog
+url: "https://ida-tubs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom fields by IDA Wireless Group
 title-logo: /images/IDA_Wireless_Group.svg
