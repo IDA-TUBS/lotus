@@ -1,12 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-title: Publications
-permalink: /publications/
----
-
 Bendrick, Alex, and Rolf Ernst. 2023. “Hard Real-Time Streaming of Large
 Data Objects with Overlapping Backward Error Correction.” In *IECON
 2023- 49th Annual Conference of the IEEE Industrial Electronics
