@@ -1,2 +1,3 @@
-# IDA Wireless Group Website
-This repository is used for the IDA Wireless Groups' website hosted via github pages using jekyll.
+# IDA Lotus Project Website
+
+This repository is used for the IDA LOTUS projects' website hosted via github pages using jekyll.
