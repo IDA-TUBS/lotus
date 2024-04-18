@@ -11,8 +11,9 @@
 }
 
 .site-header img {
-  height: 40px; /* Adjust the height of the logo as needed */
+  height: 50px; /* Adjust the height of the logo as needed */
   width: auto; /* Maintain aspect ratio */
+  padding-bottom: 2px;
 }
 
 .site-title {
@@ -112,7 +113,14 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  min-height: $spacing-unit * 1.865;
+}
+
+.site-footer img {
+  height: 40px; /* Adjust the height of the logo as needed */
+  width: auto; /* Maintain aspect ratio */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-heading {

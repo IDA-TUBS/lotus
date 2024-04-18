@@ -1,15 +1,23 @@
-<!-- <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
+<footer class="site-footer">
   <div class="wrapper">
 
-    <div class="footer-links">
+    <!-- Custom: add title or title-logo -->
+    <a class="footer-heading" rel="author" href="https://www.ida.ing.tu-bs.de/home">
+      {%- if site.footer-logo -%}
+        <img src="{{ site.footer-logo | relative_url }}">
+      {%- else -%}
+        {{ site.title | escape }}</a>
+      {%- endif -%}
+    </a>
+    <!-- end title or title-logo -->
+
+    <!-- <div class="footer-links">
       <a href="https://www.ida.ing.tu-bs.de/home">IDA website</a>
-    </div>
+    </div> -->
 
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
-    <div class="footer-col-wrapper">
+    <!-- <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
@@ -23,9 +31,9 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
-      </div> -->
+      </div>
 
-      <!-- <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
 
@@ -36,4 +44,4 @@
 
   </div>
 
-</footer> -->
+</footer> 
