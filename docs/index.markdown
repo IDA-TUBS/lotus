@@ -10,6 +10,4 @@ The project **L**arge **O**bject **T**ransmission **U**nder **S**afety Constrain
 Current research topics comprise error-correction under stringent real-time constraints in general, and providing continuous connectivity to prevent connection loss during handover events for infrastructure-based applications.
 
 Our proposales are tested via simulation frameworks such as [OMNeT++](https://omnetpp.org/), which is the basis for the [IDAWirelessSimulator](https://github.com/IDA-TUBS/IDAWirelessSimulator). 
-However, we are also dedicated to build physical demonstrators to further verify our results. 
-
-[Further information about the institute](https://www.ida.ing.tu-bs.de/en/home-1)
+However, we are also dedicated to build physical demonstrators to further verify our results.
