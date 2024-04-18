@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IDA Lotus
+title: LOTUS
 baseurl: "/lotus/" # the subpath of your site, e.g. /blog
 url: "https://ida-tubs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Custom fields by IDA Wireless Group
-title-logo: /images/IDA_Wireless_Group.svg
+# title-logo: /images/IDA_Wireless_Group.svg
 
 # Build settings
 theme: minima

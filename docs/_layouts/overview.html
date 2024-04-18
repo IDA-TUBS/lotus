@@ -2,6 +2,7 @@
 layout: default
 ---
 <h2 class="post-list-heading">{{ page.list_title | default: "Research Topics" }}</h2>
+<h2 >{{ content }}</h3>
 <ul class="post-list">
     {% for topic in site.topics %}
         <li>
