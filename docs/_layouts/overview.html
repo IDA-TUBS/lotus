@@ -12,7 +12,12 @@ layout: default
             </a>
             </h3>
             {%- if site.show_excerpts -%}
-            {{ topic.excerpt }}
+            <!-- {{ topic.excerpt }}  -->
+
+            <div class="no-paragraphs">
+                {{ topic.content | split: site.excerpt_separator | first }} 
+                <a class="read-more" href="{{ site.baseurl }}{{ topic.url }}">Read more</a>
+            </div>
             {%- endif -%}
         </li>
     {% endfor %}
