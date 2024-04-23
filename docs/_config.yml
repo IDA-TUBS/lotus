@@ -55,6 +55,9 @@ collections:
   handover:
     output: true
     permalink: /handover/:path/
+  robustness:
+    output: true
+    permalink: /robustness/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
