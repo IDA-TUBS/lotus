@@ -29,7 +29,7 @@ Engineering*.
 https://doi.org/<https://doi.org/10.24355/dbbs.084-202301231301-0>.
 
 A. Bendrick, J. Peeck and R. Ernst. 2023. “An Error Protection Protocol 
-for the Multicast Transmissionof Data Samples in V2X Applications.” 
+for the Multicast Transmission of Data Samples in V2X Applications.” 
 *ACM Transactions on Cyber-Physical Systems*, August. <https://doi.org/10.1145/3617126>.
 
 R. Ernst, D. Stöhrmann, A. Bendrick, and A. Kostrzewa. 2023.
@@ -40,8 +40,7 @@ Systems* 22 (2): 20:1–25. <https://doi.org/10.1145/3528411>.
 J. Peeck and R. Ernst. 2023. “Enabling Multi-Link Data
 Transmission for Collaborative Sensing in Open Road Scenarios.” In
 *Proceedings of the 31st International Conference on Real-Time Networks
-and Systems*, 76–86. RTNS ’23. New York, NY, USA: Association for
-Computing Machinery. <https://doi.org/10.1145/3575757.3593652>.
+and Systems*, 76–86. RTNS ’23. <https://doi.org/10.1145/3575757.3593652>.
 
 J. Peeck, M. Möstl, T. Ishigooka and R. Ernst. 2023. 
 “A Protocol for Reliable Real-Time Wireless Communication of
