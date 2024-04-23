@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Towards Reliable sample Transmission
+title: Towards Reliable Sample Transmission
 topic: error_correction
 published: true
 ---
