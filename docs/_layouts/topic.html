@@ -36,7 +36,7 @@ layout: default
             {%- if site.show_excerpts -%}
               <div class="no-paragraphs">
                 {{ post.content | split: site.excerpt_separator | first }} 
-                <a class="read-more" href="{{ site.baseurl }}{{ topic.url }}">Read more</a>
+                <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
               </div>
             {%- endif -%}
             </li>

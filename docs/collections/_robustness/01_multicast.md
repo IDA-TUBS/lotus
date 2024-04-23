@@ -18,7 +18,7 @@ For both experiments, LIDAR samples (cf. [3GPP TR22.886](https://portal.3gpp.org
 
 <div style="text-align: center;">
 <figure>
-<img src="figures/error_rate.png" alt="Figure 1: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast." style="zoom:15%;" />
+<img src="{{site.baseurl}}/robustness/figures/error_rate.png" alt="Figure 1: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast." style="zoom:15%;" />
 <figcaption>Figure 1: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast.</figcaption>
 </figure>
 </div>
@@ -30,11 +30,11 @@ The prioritization mechanism enables most of the receivers (here four out of fiv
 
 <div style="text-align: center;">
 <figure>
-<img src="figures/noprio.png" alt="Figure 2: Deadline violation rates of different nodes without prioritization." style="zoom:15%;" />
+<img src="{{site.baseurl}}/robustness/figures/noprio.png" alt="Figure 2: Deadline violation rates of different nodes without prioritization." style="zoom: 5%;">
 <figcaption>Figure 2: Deadline violation rates of different nodes without prioritization.</figcaption>
 </figure>
 <figure>
-<img src="figures/prio.png" alt="Figure 3: Deadline violation rates of different nodes with prioritization being used." style="zoom:15%;" />
+<img src="{{site.baseurl}}/robustness/figures/prio.png" alt="Figure 3: Deadline violation rates of different nodes with prioritization being used." style="zoom:15%;" />
 <figcaption>Figure 3: Deadline violation rates of different nodes with prioritization being used.</figcaption>
 </figure>
 </div>
