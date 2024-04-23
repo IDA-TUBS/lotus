@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Wireless Reliable Realtime Protocol
+title: Towards Reliable sample Transmission
 topic: error_correction
 published: true
 ---
