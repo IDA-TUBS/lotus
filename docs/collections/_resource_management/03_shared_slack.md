@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shared slack Budgeting for Ultra Reliable Hard Real-Time Streaming"
-date:   2023-04-24 12:00:00 +0100
+date:   2024-04-24 12:00:00 +0100
 published: true
 ---
 
