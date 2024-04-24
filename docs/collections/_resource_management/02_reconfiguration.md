@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Safe Reconfiguration Protocol"
-date:   2024-05-10 10:00:00 +0100
+date:   2024-04-24 10:00:00 +0100
 published: true
 ---
 
