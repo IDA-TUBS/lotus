@@ -15,6 +15,7 @@ The RM takes into account both application requirements and constraints as well 
 <figcaption>Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer.</figcaption>
 </figure>
 </div>
+
 The hierarchical nature allows for cascading network segments and cross network segment coordination. An exemplary use case is visualized in Figure 2. Vehicles (in an automated valet parking (AVP) scenario) connect wirelessly to the edge to stream camera data from the infrastructure that shall be used in each vehicles sensor fusion for enhanced awareness of their environments. As a result the data needs to be transmitted first via the wireless RAN to the vehicles, and then via the in-vehicle networks to the respective unit responsible for sensor fusion. Coordination must take account various aspects:
 - Application constraints (deadlines) must not be violated. The deadline must include both the wireless data exchange as well as the forwarding within the in-vehicle network.
 - Overload situation at the RAN must be avoided.
