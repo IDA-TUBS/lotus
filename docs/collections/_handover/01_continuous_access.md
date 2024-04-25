@@ -9,7 +9,7 @@ To address the issues of traditional handover mechanisms and enable continuous c
 
 <div style="text-align: center;">
 <figure>
-<img src="{{site.baseurl}}/handover/figures/sharedSlack.png" alt="Figure 1: Example of a TSN network that connects edge devices (e.g., cameras) and access points to allow for streaming of data to wirelessly connected nodes." style="zoom:15%;" />
+<img src="{{site.baseurl}}/handover/figures/segment_coordination_intersection.png" alt="Figure 1: Example of a TSN network that connects edge devices (e.g., cameras) and access points to allow for streaming of data to wirelessly connected nodes." style="zoom:15%;" />
 <figcaption>Figure 1: Example of a node with two applications. The lower plot visualizes the budget usage of the node. After scheduling the periodic parts there is spare budget (shared slack) available for applications to use in case BEC needs increase dynamically.</figcaption>
 </figure>
 </div>

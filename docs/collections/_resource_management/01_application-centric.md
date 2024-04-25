@@ -11,7 +11,7 @@ The RM takes into account both application requirements and constraints as well 
 
 <div style="text-align: center;">
 <figure>
-<img src="{{site.baseurl}}/resource_management/figures/aRm_nRm.png" alt="Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer." style="zoom:15%;" />
+<img src="{{site.baseurl}}/resource_management/figures/aRm_nRM.png" alt="Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer." style="zoom:15%;" />
 <figcaption>Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer.</figcaption>
 </figure>
 </div>
