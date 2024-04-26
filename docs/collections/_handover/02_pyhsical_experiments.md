@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Physical Experiments"
-date:   2024-04-24 11:00 +0100
+date:   2024-04-25 11:00 +0100
 published: true
 ---
 
