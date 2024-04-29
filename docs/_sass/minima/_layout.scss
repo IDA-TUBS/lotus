@@ -270,3 +270,21 @@
 .no-paragraphs p {
   display: inline;
 }
+
+/**
+ * Post Figures
+ */
+.figure{
+  text-align: center;
+}
+
+.figure img{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.figure figcaption{
+  text-align: center;
+}

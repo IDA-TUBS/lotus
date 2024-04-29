@@ -11,9 +11,9 @@ Furhermore, previous W2RP works always assumed the sample period and sample (tra
 
 Generally, we assume a sample transmission can be finished prior to the next sample arriving (t < period). Nevertheless, with the sample deadline exceeding the period each sample transmission gains additional slack (cf. Figure 1). Hence, if a burst error occurs that affects many consecutive fragment transmissions, this slack can be used to perform additional retransmissions, thereby enabling reliable transmission of sample under such circumstances as well. However, complicating safety considerations is the fact that through usage of additional slack subsequent sample transmissions are delayed due to the resulting overlapping nature of samples. Assuming burst errors do not occur too close after one another burst effects on the sample transmissions decay until the additional slack usage returns to zero, i.e., the systems returned to its most robust state.
 
-<div style="text-align: center;">
+<div class="figure">
 <figure>
-<img src="{{site.baseurl}}/robustness/figures/Pipelining.png" alt="Figure 1: Additional slack from overlapping from overlapping sample transmissions can be exploited to cope with occasional burst errors." style="zoom:15%;" />
+<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/Pipelining.png" alt="Figure 1: Additional slack from overlapping from overlapping sample transmissions can be exploited to cope with occasional burst errors."/>
 <figcaption>Figure 1: Additional slack from overlapping from overlapping sample transmissions can be exploited to cope with occasional burst errors.</figcaption>
 </figure>
 </div>
@@ -23,9 +23,9 @@ We have shown that for a given burst error model (here: [Gilbert](https://doi.or
 Our experiments ([using the IDA Wireless Simulator](https://github.com/IDA-TUBS/IDAWirelessSimulator)) clearly showed that using stock W2RP (transmission deadline = period) for high rate sample exchange (30Hz) is not feasible (cf. Figure 2). Using the E-W2RP and extending the transmission deadline significantly decreases deadline violation rates (down to 0% for deadlines > 88ms).
 Consequently, reliable sample transmission in burst error scenarios is possible.
 
-<div style="text-align: center;">
+<div class="figure">
 <figure>
-<img src="{{site.baseurl}}/robustness/figures/violationRatesBursts.png" alt="Figure 2: Deadline violation rates for increasing sample periods." style="zoom:15%;" />
+<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/violationRatesBursts.png" alt="Figure 2: Deadline violation rates for increasing sample periods."/>
 <figcaption>Figure 2: Deadline violation rates for increasing sample periods. Despite increasing the sample deadline leads to increasing sample overlap, reliability is significantly improved.</figcaption>
 </figure>
 </div>

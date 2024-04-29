@@ -9,9 +9,9 @@ A centralized application-centric Resource Management (RM) approach that is base
 
 The RM takes into account both application requirements and constraints as well as network properties. This is achieved by splitting the functionality into an application layer RM (aRM) and network layer RM (nRM). Thereby, the former is responsible for coordinating data exchange on an application level whereas the latter takes control of network components. Consequently, application requests are first handled by the aRM, which in turn coordinates all actions with the nRM through the shared aRM_nRM interface. This ensures that application requests and subsequent actions are in line with the underlying networks requirements and its capabilities. 
 
-<div style="text-align: center;">
+<div class="figure">
 <figure>
-<img src="{{site.baseurl}}/resource_management/figures/aRm_nRM.png" alt="Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer." style="zoom:15%;" />
+<img style="width:80%;" src="{{site.baseurl}}/resource_management/figures/aRm_nRM.png" alt="Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer."/>
 <figcaption>Figure 1: Each network region comprises an RM and multiple applications connected to the RM. The RM is divided into two main parts (application layer RM and network layer RM). Both parts communicate with each other as well as with other RMs from other regions in the respective layer.</figcaption>
 </figure>
 </div>
@@ -24,9 +24,9 @@ The hierarchical nature allows for cascading network segments and cross network 
 - ...
 The proposed application-centric RM provides basic protocol messages for coordinating actions across applications, the aRM and the nRM - even across different network segments.   
 
-<div style="text-align: center;">
+<div class="figure">
 <figure>
-<img src="{{site.baseurl}}/resource_management/figures/multisegmentUseCase.png" alt="Figure 2: Overview of an explemlary use case with two vehicles - each with its own RM - connected wirelessly to a camera. Data from camera application is send over the edge via the RAN to the in-vehicle network." style="zoom:15%;" />
+<img style="width:80%;" src="{{site.baseurl}}/resource_management/figures/multisegmentUseCase.png" alt="Figure 2: Overview of an explemlary use case with two vehicles - each with its own RM - connected wirelessly to a camera. Data from camera application is send over the edge via the RAN to the in-vehicle network.">
 <figcaption>Figure 2: Overview of an explemlary use case with two vehicles - each with its own RM - connected wirelessly to a camera. Data from camera application is send over the edge via the RAN to the in-vehicle network.</figcaption>
 </figure>
 </div>
