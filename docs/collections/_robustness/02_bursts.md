@@ -30,4 +30,4 @@ Consequently, reliable sample transmission in burst error scenarios is possible.
 </figure>
 </div>
 
-We further showed that the proposed mechanism can be further used to improve robustness to longer or more frequent bursts. More details on the proposed mechanism, experiments and results can be found in the corresponding [paper](https://doi.org/10.1109/IECON51785.2023.10312061).
+We further showed that the proposed mechanism can be further used to improve robustness to longer or more frequent bursts. More details on the proposed mechanism, experiments and results can be found in the corresponding [paper](https://doi.org/10.24355/dbbs.084-202310261026-0).
