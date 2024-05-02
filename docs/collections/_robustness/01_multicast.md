@@ -5,14 +5,22 @@ date:   2023-09-05 16:17:52 +0100
 published: true
 ---
 
-Unicast data dissemination in cooperative perception and similar applications is inefficient as it can be expected that data may be needed by multiple vehicles/nodes. Hence, W2RP has been extended to support multicast resulting in WiMEP. As errors can be individual per receiver, efficient backward error correction (BEC) is a challenging task. For this purpose, WiMEP supports bundling of BEC for receivers with similar error patterns and offers means to prioritize receivers based on arbitrary conditions. WiMEP's effectiveness has been demonstrated both in simulation as well as under real-world conditions using the IDA's wireless demonstrator setup.
+Unicast data dissemination in cooperative perception and similar applications is inefficient as it can be expected that data may be needed by multiple vehicles/nodes. Hence, W2RP has been extended to support multicast resulting in WiMEP. As errors can be individual per receiver, efficient backward error correction (BEC) is a challenging task. For this purpose, WiMEP supports bundling of BEC for receivers with similar error patterns and offers means to prioritize receivers based on arbitrary conditions. The following figure visualizes the prioritized retransmission scheme of WiMEP. The decision on which fragment to retransmit first depends on the priority-based reader selector that chooses the most important receiver (reader) and prioritizes its fragment retransmissions. Nevertheless, retransmissions continue to be send via multicast, hence all other receivers can also benefit from the retransmission. This procedure is repeated until a) all readers received the sample completely or b) the sample deadline elapses.
+
+<div class="figure">
+<figure>
+<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/ablauf_v4_split_aspects_retx.png" alt="Figure 1: Prioritized multicast retransmissions of WiMEP."/>
+<figcaption>Figure 1: Prioritized multicast retransmissions of WiMEP.</figcaption>
+</figure>
+</div>
+
 
 The effectiveness of WiMEP has been demonstrated using simulations as well as a physical demonstrator setup. For the former, the [IDA Wireless Simulator](https://github.com/IDA-TUBS/IDAWirelessSimulator) has been used. As expected, our simulations showed WiMEP clearly outperforming standard DDS, e.g., with respect to reliable throughput at a given error rate (cf. Figure 1) or enabling more receivers to receive the sample reliably. For both experiments, LIDAR samples (cf. [3GPP TR22.886](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3108)) have been exchanged.
 
 <div class="figure">
 <figure>
-<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/error_rate.png" alt="Figure 1: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast."/>
-<figcaption>Figure 1: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast.</figcaption>
+<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/error_rate.png" alt="Figure 2: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast."/>
+<figcaption>Figure 2: WiMEP enables far reliable transmission of larger samples at higher error rates compared to using multiple W2RP unicast streams or standard DDS multicast.</figcaption>
 </figure>
 </div>
 
@@ -20,12 +28,12 @@ WiMEP's prioritization mechanism, that is specifically design to address the iss
 
 <div class="figure">
 <figure>
-<img style="width: 80%;" src="{{site.baseurl}}/robustness/figures/noprio.png" alt="Figure 2: Deadline violation rates of different nodes without prioritization.">
-<figcaption>Figure 2: Deadline violation rates of different nodes without prioritization.</figcaption>
+<img style="width: 80%;" src="{{site.baseurl}}/robustness/figures/noprio.png" alt="Figure 3: Deadline violation rates of different nodes without prioritization.">
+<figcaption>Figure 3: Deadline violation rates of different nodes without prioritization.</figcaption>
 </figure>
 <figure>
-<img style="width: 80%;" src="{{site.baseurl}}/robustness/figures/prio.png" alt="Figure 3: Deadline violation rates of different nodes with prioritization being used."/>
-<figcaption>Figure 3: Deadline violation rates of different nodes with prioritization being used.</figcaption>
+<img style="width: 80%;" src="{{site.baseurl}}/robustness/figures/prio.png" alt="Figure 4: Deadline violation rates of different nodes with prioritization being used."/>
+<figcaption>Figure 4: Deadline violation rates of different nodes with prioritization being used.</figcaption>
 </figure>
 </div>
 
