@@ -29,4 +29,4 @@ Simulative evaluations have been performed to assess the effectiveness of BS-SS.
 </figure>
 </div>
 
-More details on BS-SS and further experiments can be found in the corresponding [paper]().
+More details on BS-SS and further experiments can be found in the corresponding [paper](https://doi.org/10.24355/dbbs.084-202405020838-0).

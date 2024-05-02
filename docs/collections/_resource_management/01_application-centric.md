@@ -31,4 +31,4 @@ The proposed application-centric RM provides basic protocol messages for coordin
 </figure>
 </div>
 
-First simulative experiments of the use case described above showed promising results for tightly coordinating data streams across multiple network segments (here RAN and in-vehicle network). More details on the application-centric RM can be found in the corresponding [paper](https://doi.org/10.1145/3528411).
+First simulative experiments of the use case described above showed promising results for tightly coordinating data streams across multiple network segments (here RAN and in-vehicle network). More details on the application-centric RM can be found in the corresponding [paper](https://doi.org/10.24355/dbbs.084-202405020808-0).
