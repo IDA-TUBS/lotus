@@ -3,11 +3,21 @@
 import os
 import bibtexparser
 
-def sort_bib_database_by_date(bib_database):
-    sorted_entries = sorted(bib_database.entries,
-                            key=lambda x: (x.get('year', ''), x.get('month', '')),
-                            reverse=True)
-    bib_database.entries = sorted_entries
+# def sort_bib_database_by_date(bib_database):
+#     sorted_entries = sorted(bib_database.entries,
+#                             key=lambda x: (x.get('year', ''), x.get('month', '')),
+#                             reverse=True)
+#     bib_database.entries = sorted_entries
+
+def sort_by_date(entry):
+    month_order = {
+        'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+        'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+    }
+    date_parts = entry.get('month', '').lower().split('-')
+    month = date_parts[0]
+    year = int(entry.get('year', '0'))
+    return year, month_order.get(month, 0)
 
 def format_ieeetran(entry):
     authors = entry.get('author', '').split(' and ')
@@ -81,14 +91,16 @@ with open('IDA_Wireless_Group.bib') as file:
     bibtex_str = file.read()
 
     bib_db = bibtexparser.loads(bibtex_str)
-    sort_bib_database_by_date(bib_db)
+    # sort_bib_database_by_date(bib_db)
+    print(bib_db)
+    bib_db = sorted(bib_db.entries, key=sort_by_date, reverse=True)
 
-os.remove("pub_list.md")
-f = open("pub_list.md", "a")
+os.remove("publication_list.md")
+f = open("publication_list.md", "a")
 
 
 
-for entry in bib_db.entries:
+for entry in bib_db:
     # print(entry)
     print("-------------------")
     string = format_ieeetran(entry)
