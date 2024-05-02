@@ -42,7 +42,7 @@ Figure 3 depicts a representative result from the basic [W2RP publication](https
 
 <div class="figure">
 <figure>
-<img style="width:80%;" src="{{site.baseurl}}/topics/figures/01_single_link.png" alt="Figure 3: W2RP link with a shaping time of 1400us, a sample size of 20kB, and a fragment size of 800 Byte. The deadline is 100ms."/>
+<img style="width:80%;" src="{{site.baseurl}}/topics/figures/01_rtps_ta_ber_violation_rate_1400.png" alt="Figure 3: W2RP link with a shaping time of 1400us, a sample size of 20kB, and a fragment size of 800 Byte. The deadline is 100ms."/>
 <figcaption>Figure 3: W2RP link with a shaping time of 1400us, a sample size of 20kB, and a fragment size of 800 Byte. The deadline is 100ms.</figcaption>
 </figure>
 </div>
