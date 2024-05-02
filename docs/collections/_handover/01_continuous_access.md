@@ -25,4 +25,4 @@ In general, user-centric clustering is used to determine the set of access point
 </div>
 
 
-Experimental results showed the continuous connectivity approach enabling continuous and reliable sample exchange in handover scenarios as stream interruptions are minimal. For more details we refer the reader to the [paper]().
+Experimental results showed the continuous connectivity approach enabling continuous and reliable sample exchange in handover scenarios as stream interruptions are minimal. For more details we refer the reader to the [paper](https://doi.org/10.24355/dbbs.084-202405020845-0).
