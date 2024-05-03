@@ -7,7 +7,7 @@ published: true
 
 Sending fragments periodically with a static *shaping time* can reach its limits in case the channel utilization is extremely high. Obviously, it is not possible to support unlimited numbers of high-volume V2X collaborative sensing links within limited channel capacity. Instead, link access to resources has to be managed.
 
-One solution that targets closed and centrally resource managed environments has been proposed for a valet parking use case [paper](https://ieeexplore.ieee.org/abstract/document/10123001). However, central resource management can not be assumed to be available in any traffic scenario. It might be too costly to be deployed and maintained on a given road, can break down, be too complex due to the high dynamism of vehicular environments, or is simply not deployed yet. Hence, it is favorable to provide a basic mechanism that lets links find a resource access schedule in a decentralized way.
+One solution that targets closed and centrally resource managed environments has been proposed for a valet parking use case [paper](https://doi.org/10.24355/dbbs.084-202405030723-0). However, central resource management can not be assumed to be available in any traffic scenario. It might be too costly to be deployed and maintained on a given road, can break down, be too complex due to the high dynamism of vehicular environments, or is simply not deployed yet. Hence, it is favorable to provide a basic mechanism that lets links find a resource access schedule in a decentralized way.
 
 <div class="figure">
 <figure>
@@ -29,7 +29,7 @@ The overall challenge is to allocate the resources in such a way that higher pri
 
 <div class="figure">
 <figure>
-<img style="width:100%;" src="{{site.baseurl}}/robustness/figures/03_adaptive_sample_latencies.png" alt="FFigure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links."/>
+<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/03_adaptive_sample_latencies.png" alt="FFigure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links."/>
 <figcaption>Figure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links.</figcaption>
 </figure>
 </div>
