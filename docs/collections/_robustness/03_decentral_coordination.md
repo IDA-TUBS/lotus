@@ -29,7 +29,7 @@ The overall challenge is to allocate the resources in such a way that higher pri
 
 <div class="figure">
 <figure>
-<img style="width:80%;" src="{{site.baseurl}}/robustness/figures/03_adaptive_sample_latencies.png" alt="FFigure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links."/>
+<img style="width:100%;" src="{{site.baseurl}}/robustness/figures/03_adaptive_sample_latencies.png" alt="FFigure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links."/>
 <figcaption>Figure 3: Sample latencies of the links depicted in Figure 1 over time. Following the links' starting and ending times, the links adapt their resource shares in a way to grant more resources to higher priority links.</figcaption>
 </figure>
 </div>
