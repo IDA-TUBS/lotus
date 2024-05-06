@@ -10,7 +10,7 @@ Alex Bendrick, Jonas Peeck and Rolf Ernst, "**An Error Protection Protocol for t
 
 Alex Bendrick and Rolf Ernst, "**Hard Real-Time Streaming of Large Data Objects with Overlapping Backward Error Correction**",  In *IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society*, pp. 1-8, 2023, October. <https://doi.org/10.24355/dbbs.084-202310261026-0>
 
-Jonas Peeck, Mischa Möstl, Tasuku Ishigooka and Rolf Ernst, "**A Protocol for Reliable Real-Time Wireless Communication of Large Data Samples**", *IEEE Transactions on Vehicular Technology*, vol. 72, no. 10, pp. 13146--13161, 2023, October. <https://doi.org/10.1109/TVT.2023.3275300>
+Jonas Peeck, Mischa Möstl, Tasuku Ishigooka and Rolf Ernst, "**A Protocol for Reliable Real-Time Wireless Communication of Large Data Samples**", *IEEE Transactions on Vehicular Technology*, vol. 72, no. 10, pp. 13146--13161, 2023, October. <https://doi.org/10.24355/dbbs.084-202405030723-0>
 
 Alex Bendrick, Jonas Peeck and Rolf Ernst, "**On the effectiveness of W2RP in physical environments**", *Publications Institute of Computer and Network Engineering*, 2023, January. <https://doi.org/10.24355/dbbs.084-202301231301-0>
 
