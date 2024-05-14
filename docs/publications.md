@@ -1,3 +1,12 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Publications
+permalink: /publications/
+---
+
 Daniel Tappe, Alex Bendrick and Rolf Ernst, "**Continuous multi-access communication for high-resolution low-latency V2X sensor streaming**",  In *2024 IEEE Intelligent Vehicles Symposium (IV)*, 2024, June. <https://doi.org/10.24355/dbbs.084-202405020845-0>
 
 Alex Bendrick, Daniel Tappe and Rolf Ernst, "**Ultra Reliable Hard Real-Time V2X Streaming with Shared Slack Budgeting**",  In *2024 IEEE Intelligent Vehicles Symposium (IV)*, 2024, June. <https://doi.org/10.24355/dbbs.084-202405020838-0>
