@@ -6,7 +6,7 @@ published: true
 ---
 
 Wireless communication is an inherently lossy technology. When targeting the communication of large data objects under real-time and safety requirements, such as in cooperative perception, lost frames have to be retransmitted in time. The Wireless Reliable Real-Time protocol (W2RP) is the first protocol that specifically addresses the reliable and timely transmission of large application data objects, called samples, in V2X environments.
- 
+
 In contrast to small awareness or notification messages, samples represent multi-frame data communication within an extended application-level deadline. By taking advantage of such larger deadlines, W2RP maximizes the efficiency of retransmissions, which improves reliability and minimizes the allocated resources of large V2X data streams.
 Both reliability and resource efficiency are prerequisites for the communication of large data samples in safety-critical scenarios, such as collaborative perception. W2RP, as a middleware protocol, is integrated into the popular Data Distribution Service (DDS), which is the default communication middleware of the Robot Operating System (ROS) 2 and is also part of the AUTOSAR communication specification.
 This makes W2RP easily accessible for robotic and automotive applications.
@@ -21,7 +21,7 @@ The basic principle of W2RP is depicted in Figure 1, which shows an infrastructu
 Each of those fragments is subject to the deadline of its corresponding sample, which is typically equal to the sample period. Within the sample deadline W2RP implements two basic mechanisms:
 
 * **Fragment shaping**: Fragments are passed to the lower MAC layer with a minimum distance time called *fragment shaping time*.
-* **Bitmap-based backward error correction (BER)**: If transmitted successfully, the receiver answers each fragment with a bitmap-based acknowledgment to the sender, where each bit indicates the successful reception or loss of a fragment in the sample.
+* **Bitmap-based backward error correction (BEC)**: If transmitted successfully, the receiver answers each fragment with a bitmap-based acknowledgment to the sender, where each bit indicates the successful reception or loss of a fragment in the sample.
 
 These two mechanisms enable an efficient and reliable communication within a shared wireless channel.
 A concrete protocol example is depicted in Figure 2.
@@ -50,5 +50,4 @@ Figure 3 depicts a representative result from the basic [W2RP publication](https
 </div>
 
 Interestingly, the shaping time determines the number of retransmissions within the deadline and, hence, also the addressable frame error rate, which is up to 50% in the example. Only after the channel load increases significantly, the frame blocking time at the Wifi MAC interface exceeds the shaping time, for which W2RP loses performance. However, this is no surprise since large data sample communication always relies on available resources. Within, W2RP maximizes the efficient use of resources and can be precisely configured to specific feasible channel conditions in terms of upper frame error rates. Simulations as well as proof-of-concept experiments based on a physical demonstrator setup validated W2RP's effectiveness in direct comparison to standard DDS as well as MAC-layer reliability mechanisms of existing (802.11) wireless technologies. Formal proof of reliability could be provided in a resource-managed environment, such as valet parking (cf. [paper](https://doi.org/10.24355/dbbs.084-202405030723-0)). To dynamically manage multiple W2RP links in a decentralized access scenario, a self-adaptive approach to the shaping time has been developed (cf. [paper](https://dl.acm.org/doi/abs/10.1145/3575757.3593652)), as summarized in [this section](https://ida-tubs.github.io/lotus/robustness/03_decentral_coordination/).
-
 
