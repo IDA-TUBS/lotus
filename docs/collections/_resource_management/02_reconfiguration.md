@@ -21,7 +21,6 @@ The main challenges with respect to the coordination of applications can be summ
 </div>
 
 The reconfiguration protocol (cf. Figure 2) is based on two components:
-
 1. A heartbeat-based safety layer that continuously monitors connection between the RM and all application entities
 2. A four phase synchronized reconfiguration protocol 
 
