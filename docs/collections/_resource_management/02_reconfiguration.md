@@ -8,10 +8,10 @@ published: true
 While the previous work on application-centric resource management addressed the coordination of multiple applications and network segments, it so far lacked detailed descriptions on how safety can actually be achieved given such a resource management approach. The reconfiguration protocol proposed here addresses these concerns, deriving constraints and requirements from a widely applicable system model that includes vehicle dynamics.<!--end_excerpt-->
 
 The main challenges with respect to the coordination of applications can be summarized as follows:
-* Applications are subject to stringent timing and safety guarantees that must not be violated.
-* Cross-interference (dependencies) and competition for channel resources between applications may pose significant harm to those safety constraints.
-* Dynamic environments where connection quality can fluctuate on a per node basis or where nodes may join or leave an application context group (a set of nodes exchanging data) as visualized in Figure 1 complicate the issue.
-* Consistent application modes must be ensured at all time, even if changes are necessary
+- Applications are subject to stringent timing and safety guarantees that must not be violated.
+- Cross-interference (dependencies) and competition for channel resources between applications may pose significant harm to those safety constraints.
+- Dynamic environments where connection quality can fluctuate on a per node basis or where nodes may join or leave an application context group (a set of nodes exchanging data) as visualized in Figure 1 complicate the issue.
+- Consistent application modes must be ensured at all time, even if changes are necessary
 
 <div class="figure">
 <figure>
