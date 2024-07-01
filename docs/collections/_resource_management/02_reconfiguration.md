@@ -5,7 +5,7 @@ date:   2024-07-01 10:00:00 +0100
 published: true
 ---
 
-While the previous work on application centric resource management [[link](https://ida-tubs.github.io/lotus/resource_management/01_application-centric/)] addressed the coordination of multiple applications and network segments, it so far lacked detailed descriptions on how safety can actually be achieved given such a resource management approach. The reconfiguration protocol proposed here addresses these concerns, deriving constraints and requirements from a widely applicable system model that includes vehicle dynamics.
+While the previous work on application-centric resource management addressed the coordination of multiple applications and network segments, it so far lacked detailed descriptions on how safety can actually be achieved given such a resource management approach. The reconfiguration protocol proposed here addresses these concerns, deriving constraints and requirements from a widely applicable system model that includes vehicle dynamics.
 
 The main challenges with respect to the coordination of applications can be summarized as follows:
 * Applications are subject to stringent timing and safety guarantees that must not be violated.
@@ -27,7 +27,7 @@ The reconfiguration protocol (cf. Figure 2) is based on two components:
 
 <div class="figure">
 <figure>
-<img style="width:80%;" src="{{site.baseurl}}/resource_management/figures/figure_3_ProtocolsCircle.png" alt="Figure 2: RM protocol design: The HB protocols serves as the base safety layer to ensure fail-silent behavior in case of connection loss. The four-phase reconfiguration protocol runs concurrently to the HB protocol if triggered by an event."/>
+<img style="width:30%;" src="{{site.baseurl}}/resource_management/figures/figure_3_ProtocolsCircle.png" alt="Figure 2: RM protocol design: The HB protocols serves as the base safety layer to ensure fail-silent behavior in case of connection loss. The four-phase reconfiguration protocol runs concurrently to the HB protocol if triggered by an event."/>
 <figcaption>Figure 2: RM protocol design: The HB protocols serves as the base safety layer to ensure fail-silent behavior in case of connection loss. The four-phase reconfiguration protocol runs concurrently to the HB protocol if triggered by an event.</figcaption>
 </figure>
 </div>
