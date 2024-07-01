@@ -7,6 +7,8 @@ title: Publications
 permalink: /publications/
 ---
 
+Alex Bendrick, Daniel Tappe, Dominik Stohrmann and Rolf Ernst, "**Synchronized Lossfree Reconfiguration of Safety-critical V2X Streaming Applications**", *IEEE Transactions on Vehicular Technology*, pp. 1-16, 2024. <https://doi.org/10.1109/TVT.2024.3415119>
+
 Daniel Tappe, Alex Bendrick and Rolf Ernst, "**Continuous multi-access communication for high-resolution low-latency V2X sensor streaming**",  In *2024 IEEE Intelligent Vehicles Symposium (IV)*, 2024, June. <https://doi.org/10.24355/dbbs.084-202405020845-0>
 
 Alex Bendrick, Daniel Tappe and Rolf Ernst, "**Ultra Reliable Hard Real-Time V2X Streaming with Shared Slack Budgeting**",  In *2024 IEEE Intelligent Vehicles Symposium (IV)*, 2024, June. <https://doi.org/10.24355/dbbs.084-202405020838-0>
