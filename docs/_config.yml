@@ -39,6 +39,7 @@ header_pages:
 
 # Enable excerpts for posts 
 show_excerpts: true
+excerpt_separator: <!--more-->
 
 collections_dir: collections
 
