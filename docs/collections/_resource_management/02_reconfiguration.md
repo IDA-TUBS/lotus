@@ -13,7 +13,7 @@ The main challenges with respect to the coordination of applications can be summ
 - Dynamic environments where connection quality can fluctuate on a per node basis or where nodes may join or leave an application context group (a set of nodes exchanging data) as visualized in Figure 1 complicate the issue.
 - Consistent application modes must be ensured at all time, even if changes are necessary
 
-<div class="figure">
+<!-- <div class="figure">
 <figure>
 <img style="width:80%;" src="{{site.baseurl}}/resource_management/figures/figure_1_app_contexts.png" alt="Figure 1: Logical view on application contexts in a wireless environment. Each application using the wireless channel is represented as a context. Various dynamics, e.g., due to node movement (nodes joining or leaving context group) or worsening channel conditions result in changes to context groups. This inherently results in changes in dependent context groups."/>
 <figcaption>Figure 1: Logical view on application contexts in a wireless environment. Each application using the wireless channel is represented as a context. Various dynamics, e.g., due to node movement (nodes joining or leaving context group) or worsening channel conditions result in changes to context groups. This inherently results in changes in dependent context groups.</figcaption>
@@ -35,5 +35,4 @@ The low-overhead heartbeat-based connection monitoring ensures that applications
 
 A prototype implementation (for Linux) has been developed and evaluated using a physical hardware demonstrator in combination with a FastDDS-based W2RP implementation. The experiments showed the reconfiguration protocol actually allowing for quick and synchronized reconfiguration while ensuring (in combination with the HB protocol) that critical applications are not subject to deadline violation, i.e., the services will not be interrupted in case of changes in channel conditions or context groups that require reconfiguration.
 
-More details on the protocol as well as the experimental evaluation can be found within the [paper](https://doi.org/10.1109/TVT.2024.3415119).
-
+More details on the protocol as well as the experimental evaluation can be found within the [paper](https://doi.org/10.1109/TVT.2024.3415119). -->
