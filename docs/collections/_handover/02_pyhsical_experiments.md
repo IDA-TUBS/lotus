@@ -6,3 +6,4 @@ published: true
 ---
 
 A real-world testbed for handover scenarios is currently being designed. Experimental results evaluating the performance of the proposed continuous connectivity approach using said testbed will be published here once the setup has been completed. 
+<!--end_excerpt-->

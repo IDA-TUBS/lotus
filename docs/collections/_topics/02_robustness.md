@@ -5,4 +5,4 @@ topic: robustness
 published: true
 ---
 
-W2RP was further developed in multiple directions, focused on improving robustness under various scenarios and channel conditions.
+W2RP was further developed in multiple directions, focused on improving robustness under various scenarios and channel conditions.<!--end_excerpt-->

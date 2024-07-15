@@ -5,7 +5,7 @@ date:   2023-06-07 10:00:00 +0100
 published: true
 ---
 
-Sending fragments periodically with a static *shaping time* can reach its limits in case the channel utilization is extremely high. Obviously, it is not possible to support unlimited numbers of high-volume V2X collaborative sensing links within limited channel capacity. Instead, link access to resources has to be managed.
+Sending fragments periodically with a static *shaping time* can reach its limits in case the channel utilization is extremely high. Obviously, it is not possible to support unlimited numbers of high-volume V2X collaborative sensing links within limited channel capacity. Instead, link access to resources has to be managed. <!--end_excerpt-->
 
 One solution that targets closed and centrally resource managed environments has been proposed for a valet parking use case [paper](https://doi.org/10.24355/dbbs.084-202405030723-0). However, central resource management can not be assumed to be available in any traffic scenario. It might be too costly to be deployed and maintained on a given road, can break down, be too complex due to the high dynamism of vehicular environments, or is simply not deployed yet. Hence, it is favorable to provide a basic mechanism that lets links find a resource access schedule in a decentralized way.
 

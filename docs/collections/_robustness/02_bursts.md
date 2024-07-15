@@ -5,7 +5,7 @@ date:   2023-10-15 10:00:00 +0100
 published: true
 ---
 
-So far, previous works on [W2RP](https://ida-tubs.github.io/lotus/topics/01_error_correction/) (and [WiMEP](https://ida-tubs.github.io/lotus/robustness/01_multicast/)) assumed uniformly distributed (bit) errors. However, real-world scenarios can be subject to more sophisticated error conditions. For example, burst errors can occur that put additional strain on the backward error correction (BEC) mechanism of W2RP.
+So far, previous works on [W2RP](https://ida-tubs.github.io/lotus/topics/01_error_correction/) (and [WiMEP](https://ida-tubs.github.io/lotus/robustness/01_multicast/)) assumed uniformly distributed (bit) errors. However, real-world scenarios can be subject to more sophisticated error conditions. For example, burst errors can occur that put additional strain on the backward error correction (BEC) mechanism of W2RP. <!--end_excerpt-->
 
 Furhermore, previous W2RP works always assumed the sample period and sample (transmission) deadline to be equal (100ms). However, modern (camera) sensors enable higher sampling rates (period < 100ms), while the application constraints (deadline) remain unchanged. While this leads to deadlines larger than sampling periods, thereby resulting in potentially overlapping sample transmission and error correction of multiple frames, we exploit this fact to improve robustness to burst errors. We refer to the proposed mechanisms as the Enhanced-W2RP protocol (E-W2RP).
 

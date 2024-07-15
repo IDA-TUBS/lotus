@@ -5,7 +5,7 @@ date:   2023-01-24 9:00:00 +0100
 published: true
 ---
 
-A centralized application-centric Resource Management (RM) approach that is based on Software Defined Networking (SDN) principles (communication divided into control and data plane) has been proposed to address the coordination of various wireless applications. Specifically, a hierarchical architecture is employed that allows for coordination across network segments.
+A centralized application-centric Resource Management (RM) approach that is based on Software Defined Networking (SDN) principles (communication divided into control and data plane) has been proposed to address the coordination of various wireless applications. Specifically, a hierarchical architecture is employed that allows for coordination across network segments. <!--end_excerpt-->
 
 The RM takes into account both application requirements and constraints as well as network properties. This is achieved by splitting the functionality into an application layer RM (aRM) and network layer RM (nRM). Thereby, the former is responsible for coordinating data exchange on an application level whereas the latter takes control of network components. Consequently, application requests are first handled by the aRM, which in turn coordinates all actions with the nRM through the shared aRM_nRM interface. This ensures that application requests and subsequent actions are in line with the underlying networks requirements and its capabilities. 
 

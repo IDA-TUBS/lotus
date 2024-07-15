@@ -5,7 +5,7 @@ date:   2024-04-24 12:00:00 +0100
 published: true
 ---
 
-Applications with varying requirements and constraints are envisioned to share a wireless channel in order to enable improved cooperative behavior in autonomous systems. Most challenging in that regard are application exchanging large objects such as sensor data. So far the exchange of such data has not been addressed by wireless (V2X) standards. While W2RP and its extensions offer reliability mechanisms for such data exchange, so far only single applications are considered.
+Applications with varying requirements and constraints are envisioned to share a wireless channel in order to enable improved cooperative behavior in autonomous systems. Most challenging in that regard are application exchanging large objects such as sensor data. So far the exchange of such data has not been addressed by wireless (V2X) standards. While W2RP and its extensions offer reliability mechanisms for such data exchange, so far only single applications are considered. <!--end_excerpt-->
 
 In general, we assume a wireless channel to be shared by multiple nodes, with each node potentially hosting mutltiple applications. Therefore, not only nodes but also applications compete for resources. This is further complicated by the fact that packet losses in the inherently lossy wireless communication will result in dynamic backward error correction (BEC) needs (for additional information on error protection: [W2RP](https://ida-tubs.github.io/lotus/topics/01_error_correction/)). The combination of multiple applications being hosted by a given node, each with timevariant BEC needs leads to a non-standard shared-resource problem. Meanwhile there are still stringent timing and safety constraints that must be violated.
 

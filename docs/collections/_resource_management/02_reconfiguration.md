@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Safe and Synchronized Reconfiguration Protocol"
+title: Safe and Synchronized Reconfiguration Protocol
 date:   2024-07-01 10:00:00 +0100
 published: true
 ---
 
-While the previous work on application-centric resource management addressed the coordination of multiple applications and network segments, it so far lacked detailed descriptions on how safety can actually be achieved given such a resource management approach. The reconfiguration protocol proposed here addresses these concerns, deriving constraints and requirements from a widely applicable system model that includes vehicle dynamics.
+While the previous work on application-centric resource management addressed the coordination of multiple applications and network segments, it so far lacked detailed descriptions on how safety can actually be achieved given such a resource management approach. The reconfiguration protocol proposed here addresses these concerns, deriving constraints and requirements from a widely applicable system model that includes vehicle dynamics <!--end_excerpt-->
 
 The main challenges with respect to the coordination of applications can be summarized as follows:
 - Applications are subject to stringent timing and safety guarantees that must not be violated.

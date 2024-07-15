@@ -5,7 +5,7 @@ topic: error_correction
 published: true
 ---
 
-Wireless communication is an inherently lossy technology. When targeting the communication of large data objects under real-time and safety requirements, such as in cooperative perception, lost frames have to be retransmitted in time. The Wireless Reliable Real-Time protocol (W2RP) is the first protocol that specifically addresses the reliable and timely transmission of large application data objects, called samples, in V2X environments.
+Wireless communication is an inherently lossy technology. When targeting the communication of large data objects under real-time and safety requirements, such as in cooperative perception, lost frames have to be retransmitted in time. The Wireless Reliable Real-Time protocol (W2RP) is the first protocol that specifically addresses the reliable and timely transmission of large application data objects, called samples, in V2X environments. <!--end_excerpt-->
 
 In contrast to small awareness or notification messages, samples represent multi-frame data communication within an extended application-level deadline. By taking advantage of such larger deadlines, W2RP maximizes the efficiency of retransmissions, which improves reliability and minimizes the allocated resources of large V2X data streams.
 Both reliability and resource efficiency are prerequisites for the communication of large data samples in safety-critical scenarios, such as collaborative perception. W2RP, as a middleware protocol, is integrated into the popular Data Distribution Service (DDS), which is the default communication middleware of the Robot Operating System (ROS) 2 and is also part of the AUTOSAR communication specification.
