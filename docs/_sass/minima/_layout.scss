@@ -113,7 +113,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+  // min-height: $spacing-unit * 1.865;
 }
 
 .site-footer img {
@@ -183,7 +183,43 @@
   }
 }
 
+/* Custom footer */
+.footer-content {
+  display: flex;
+  align-items: flex-start; /* Align items at the top of the container */
+  justify-content: space-between; /* Space items evenly across the container */
+}
 
+.footer-logo {
+  flex: 0 0 auto; /* Prevent the logo from shrinking */
+  margin-right: 20px; /* Space between logo and text */
+  margin-top: 20px;
+}
+
+.footer-logo img {
+  max-height: 50px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is treated as a block element */
+}
+
+.footer-funding {
+  flex: 0 0 auto; /* Prevent the logo from shrinking */
+  margin-left: 20px; /* Space between logo and text */
+  float: right
+}
+
+.footer-funding img {
+  height: 80px;
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is treated as a block element */
+  float: right
+}
+
+.footer-text {
+  flex: 1 1 auto; /* Allow text to grow and shrink as needed */
+  max-width: calc(100% - 70px); /* Prevent text from exceeding the combined width of logo and container padding */
+  word-wrap: break-word; /* Ensure text wraps within its container */
+}
 
 /**
  * Page content

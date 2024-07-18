@@ -1,46 +1,30 @@
 <footer class="site-footer">
   <div class="wrapper">
 
-    <!-- Custom: add title or title-logo -->
-    <a class="footer-heading" rel="author" href="https://www.ida.ing.tu-bs.de/en/home-1">
-      {%- if site.footer-logo -%}
-        <img src="{{ site.footer-logo | relative_url }}">
-      {%- else -%}
-        {{ site.title | escape }}</a>
-      {%- endif -%}
-    </a>
-    <!-- end title or title-logo -->
+    <div class="footer-content">
+      
+      <!-- Logo Section -->
+      <a class="footer-logo" rel="author" href="https://www.ida.ing.tu-bs.de/en/home-1">
+        {%- if site.footer-logo -%}
+          <img src="{{ site.footer-logo | relative_url }}" alt="Footer Logo">
+        {%- else -%}
+          {{ site.title | escape }}
+        {%- endif -%}
+      </a>
+    
+      <!-- DFG Footer Logo -->
+      <a class="footer-funding" rel="author" href="https://www.dfg.de/en">
+        {%- if site.funding-logo -%}
+          <img src="{{ site.funding-logo | relative_url }}">
+        {%- endif -%}
+      </a>
 
-    <!-- <div class="footer-links">
-      <a href="https://www.ida.ing.tu-bs.de/home">IDA website</a>
-    </div> -->
-
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
-    <!-- <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+      <!-- Text Section
+      <div class="footer-text">
+        The LOTUS project is funded by the by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Grant ER168/35-1.
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div> -->
+     -->
+    </div>
 
   </div>
 
