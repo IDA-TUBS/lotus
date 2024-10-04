@@ -72,3 +72,5 @@ Simulations (cf. Figure 6) as well as physical experiments highlight the effecti
 <figcaption>Figure 6: Simulation results for incremental update and RoI mechanisms in thwo different scenarios. Depending on the use case and the data, different mechanisms lead to optimal robustness. There is no single solution.</figcaption>
 </figure>
 </div>
+
+More details on the proposed mechanism, experiments and results can be found in the corresponding [paper]() (link TBD).
