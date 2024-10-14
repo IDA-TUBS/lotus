@@ -14,7 +14,8 @@ layout: default
             {%- if site.show_excerpts -%}
             <!-- {{ topic.excerpt }}  -->
             <div class="no-paragraphs">
-                {{ topic.content | split: site.excerpt_separator | first }} 
+                <!-- <p>{{ topic.excerpt | markdownify }}</p> -->
+                {{ topic.content | split: site.excerpt_separator | first | markdownify }} 
                 <a class="read-more" href="{{ site.baseurl }}{{ topic.url }}">Read more</a>
             </div>
             {%- endif -%}
