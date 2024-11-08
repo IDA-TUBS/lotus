@@ -74,4 +74,4 @@ Simulations (cf. Figure 6) as well as physical experiments highlight the effecti
 </figure>
 </div>
 
-More details on the proposed mechanism, experiments and results can be found in the corresponding [paper]() (link TBD).
+More details on the proposed mechanism, experiments and results can be found in the corresponding [paper](https://doi.org/10.1109/TCAD.2024.3436548).
