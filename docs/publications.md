@@ -13,6 +13,10 @@ Daniel Tappe, Alex Bendrick and Rolf Ernst, "**Continuous multi-access communica
 
 Alex Bendrick, Daniel Tappe and Rolf Ernst, "**Ultra Reliable Hard Real-Time V2X Streaming with Shared Slack Budgeting**",  In *2024 IEEE Intelligent Vehicles Symposium (IV)*, 2024, June. <https://doi.org/10.24355/dbbs.084-202405020838-0>
 
+Alex Bendrick, Nora Sperling and Rolf Ernst, "**Large Data Transfer Optimization for Improved Robustness in Real-Time V2X-Communication**", *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol. 43, no. 11, pp. 3515-3526, 2024. <https://doi.org/10.1109/TCAD.2024.3436548>
+
+Alex Bendrick, Daniel Tappe and Rolf Ernst, "**Wireless Large Object Transmission Under Safety Constraints (LOTUS)**", *arXiv preprint arXiv:2410.13398*, 2024. <https://doi.org/10.48550/arXiv.2410.13398>
+
 Rolf Ernst, Dominik Stöhrmann, Alex Bendrick and Adam Kostrzewa, "**Application-centric Network Management - Addressing Safety and Real-time in V2X Applications**", *ACM Transactions on Embedded Computing Systems*, vol. 22, no. 2, pp. 20:1--20:25, 2023, January. <https://doi.org/10.24355/dbbs.084-202405020808-0>
 
 Jonas Peeck and Rolf Ernst, "**Enabling multi-link data transmission for collaborative sensing in open road scenarios**",  In *Proceedings of the 31st International Conference on Real-Time Networks and Systems*, pp. 76--86, 2023, June. <https://doi.org/10.1145/3575757.3593652>
