@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2024-07-01 10:00:00 +0100
+categories: jekyll update
+published: true
+---
+
+Today marks the official start of the LOTUS (Large object Transmissions under Safety Constraints) project, funded by Deutsche Forschungsgemeinschaft DFG (German Research Foundation).
