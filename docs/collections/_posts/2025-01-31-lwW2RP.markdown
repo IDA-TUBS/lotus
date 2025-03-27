@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "lightweight W2RP"
+date:   2025-01-31 10:00:00 +0100
+categories: jekyll update
+published: true
+---
+
+We published our opensource lighweight W2RP (lwW2RP) implementation on [github](https://github.com/IDA-TUBS/lwW2RP).

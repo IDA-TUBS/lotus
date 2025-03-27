@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "W2RP"
+date:   2023-05-11 10:00:00 +0100
+categories: jekyll update
+published: true
+---
+
+We extended our initial work on W2RP by presented formal proofs of reliability and showed that given awareness of application properties, reliability guarantees can be given that ourperform existing solutions. The [article](https://ieeexplore.ieee.org/document/10123001) has been published in the IEEE Transaction on Vehicular Technology (TVT). [More information](https://ida-tubs.github.io/lotus/topics/01_error_correction/)
