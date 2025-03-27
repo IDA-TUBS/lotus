@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Robustness to Burst Errors"
+date:   2023-10-15 19:00:00 +1000
+categories: jekyll update
+published: true
+---
+
+At IEEE IECON 2023, we presented our [proposal](https://doi.org/10.24355/dbbs.084-202310261026-0) on overlapping sample transmissions. This W2RP extensions has been designed in order to, among others, better cope with more challenging burst scenarios. [More information](https://ida-tubs.github.io/robustness/02_bursts/)

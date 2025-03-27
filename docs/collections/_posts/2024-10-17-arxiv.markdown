@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "LOTUS arXiv"
+date:   2024-10-17 06:00:00 +0100
+categories: jekyll update
+published: true
+---
+
+We published a short overview paper on the current status of the LOTUS project. The paper can found [here](https://arxiv.org/abs/2410.13398).

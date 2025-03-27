@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Presentations at IEEE IV"
+date:   2024-06-05 15:30:00 +0900
+categories: jekyll update
+published: true
+---
+
+At IEEE Intelligent Vehicles Symposium (IV) we presented both our works on Shared Slack Budgeting for Ultra Reliable Hard Real-Time Streaming ([paper](https://doi.org/10.24355/dbbs.084-202405020838-0)) and our first work on enabling continuous connectivity and large data streaming in roaming scenarios ([paper](https://doi.org/10.24355/dbbs.084-202405020845-0)). More information: [Shared Slack](https://ida-tubs.github.io/lotus/resource_management/03_shared_slack/) and [Continuous Connectivity](https://ida-tubs.github.io/lotus/handover/01_continuous_access/).

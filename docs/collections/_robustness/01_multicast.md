@@ -37,4 +37,4 @@ WiMEP's prioritization mechanism, that is specifically design to address the iss
 </figure>
 </div>
 
-Finally, we build a physical demonstrator setup that uses commercial-of-the-shelf hardware to test WiMEP in a real wireless environment. We transmitted scaled down, real-world camera data (cf. [A2D2 dataset](https://www.a2d2.audi/a2d2/en.html)) between our nodes. Thereby, the physical experiments verified the experimental results. More details on the proposed mechanism, experiments and results can be found in the corresponding [paper](https://doi.org/10.24355/dbbs.084-202405020823-06).
+Finally, we build a physical demonstrator setup that uses commercial-of-the-shelf hardware to test WiMEP in a real wireless environment. We transmitted scaled down, real-world camera data (cf. [A2D2 dataset](https://www.a2d2.audi/a2d2/en.html)) between our nodes. Thereby, the physical experiments verified the experimental results. More details on the proposed mechanism, experiments and results can be found in the corresponding [paper](https://doi.org/10.1145/3617126).

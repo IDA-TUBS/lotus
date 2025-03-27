@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "W2RP"
+date:   2021-12-10 10:00:00 +0100
+categories: jekyll update
+published: true
+---
+
+Our first [paper](https://doi.org/10.24355/dbbs.084-202405030723-0) on enabling reliable sample transmissions has been published and presented at the IEEE Real-Time Systems Symposium (RTSS) 2021. The paper introduces the Wireless Reliable Real-Time Protocol (W2RP) and showcases its improvements over the MAC layer retransmissions of 802.11 as well as the off-the-shelf DDS middleware. [More information](https://ida-tubs.github.io/lotus/topics/01_error_correction/)
