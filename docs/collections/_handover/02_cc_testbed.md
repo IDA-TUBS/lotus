@@ -3,9 +3,8 @@ layout: post
 title: "Continuous Connectivity Testbed"
 date:   2025-03-25 14:00 +0100
 published: true
-youtubeId: EUOEarpHoD8
+youtubeId: KK0N5gIktKg
 ---
-
 
 Autonomous mobile robots (AMRs) in the industrial domain and future connected vehicle use cases demand continuous, low-latency streaming of large (sensor) data. However, the inherent mobility of those systems causes handover delays, and thus connectivity issues, thereby leading to stream disruptions (deadline violations) and seriously compromising application performance. We present a physical testbed designed to demonstrate and evaluate such roaming situations. Furthermore, we show that continuous low-latency streaming is possible under such circumstances given proper choice of protocols, without relying on inefficient redundant data transmissions. <!--end_excerpt-->
 
